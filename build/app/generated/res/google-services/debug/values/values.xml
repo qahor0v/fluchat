@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">773342825884</string>
+    <string name="google_api_key" translatable="false">AIzaSyAYD7bW05_7Bh7k980mgJ8okAUjyzgXzfI</string>
+    <string name="google_app_id" translatable="false">1:773342825884:android:3b9a5dbdd79bb252568c59</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAYD7bW05_7Bh7k980mgJ8okAUjyzgXzfI</string>
+    <string name="google_storage_bucket" translatable="false">fluchat-firebase.appspot.com</string>
+    <string name="project_id" translatable="false">fluchat-firebase</string>
+</resources>

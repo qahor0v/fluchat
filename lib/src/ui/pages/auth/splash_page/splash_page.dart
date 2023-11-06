@@ -1,7 +1,8 @@
 import 'package:fluchat/src/models/user_model.dart';
 import 'package:fluchat/src/services/database_services/user_database_services.dart';
-import 'package:fluchat/src/ui/pages/auth/sign_in_up_page/sign_in_page.dart';
 import 'package:flutter/material.dart';
+
+import '../../../../../main.dart';
 
 class SplashPage extends StatefulWidget {
   static const String id = 'splash_page';
@@ -16,7 +17,7 @@ class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
+      body: SizedBox(
         height: double.infinity,
         width: double.infinity,
         child: ListView(
@@ -66,11 +67,11 @@ class _SplashPageState extends State<SplashPage> {
                   firstName: "Azizbek",
                   email: "aziz@gmail.com",
                   password: "123",
-                  image: "thhp.....",
+                  image: "http.....",
                   registeredDate: DateTime.now().toString(),
                 );
-
                 UserDatabase().addUser(user);
+                const CheckUser();
               },
               child: Padding(
                 padding: const EdgeInsets.only(left: 24, right: 24, top: 18),
